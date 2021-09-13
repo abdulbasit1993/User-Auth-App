@@ -13,7 +13,7 @@ export default function AuthNavigator() {
     setUser(result);
     if (initializing) setInitializing(false);
   }
-  console.log('asdasdasd', {user});
+  console.log('User is:', {user});
 
   if (!initializing) {
     return null;
